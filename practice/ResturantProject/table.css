@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body::selection {
+    background-color: green;
+    color: aliceblue;
+}
+
+header {
+    background-color: rgb(181, 180, 180);
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+}
+
+#Rname {
+    float: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+#Rname h1 {
+    margin-bottom: 0px;
+}
+
+#Rname h2 {
+    margin: 0px;
+}
+
+#list {
+    text-align: right;
+
+}
+
+#list ul {
+    list-style-type: none;
+    color: black;
+    padding-top: 60px;
+    font-size: 1.2em;
+    margin: 0px 20px 0px 0px;
+}
+
+#list ul li {
+    margin: 2px 0px 2px 0px;
+}
+
+#list ul li a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-weight: 525;
+}
+
+#list ul li a:hover {
+    color: black;
+    font-weight: 600;
+}
+
+main {
+    background-color: grey;
+    padding-left: 27.5%;
+    padding-right: 27.5%;
+}
+
+#form {
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 2px 2px 50px 5px rgb(0, 0, 0);
+   
+}
+
+main h1 {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+main label {
+    font-size: 1.2em;
+    font-family: "Google Sans Code", monospace;
+    margin-left: 4px;
+
+}
+
+input {
+    font-size: 1.5em;
+    display: block;
+    margin-left: 4px;
+    border: 0px;
+    border-bottom: 2px solid grey;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#name {
+    width: 250px;
+}
+
+#phone {
+    width: 180px;
+}
+
+#people {
+    width: 50px;
+}
+
+#form h2 {
+    font-family: "Google Sans Code", monospace;
+    font-size: 1.6em;
+}
+
+.button {
+    width: 90px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-bottom: 3px;
+    font-family: "Google Sans Code", monospace;
+   
+}
+
+.button:hover {
+    border: 2px solid grey;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+   
+}
+
+footer {
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+    height: auto;
+}
+
+#end {
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+#end h4 {
+    margin: 0px
+}
+
+#Rname1 {
+    float: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+#Rname1 h1 {
+    margin: 0px;
+}
+
+#Rname1 h2 {
+    margin: 0px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,138 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff8f1;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color:rgb(244, 157, 75); /* Light orange background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Nav Menu */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:rgb(251, 251, 251);
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+    background-color:rgb(237, 135, 33);
+    color: #000000;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+/* Search bar */
+form input[type="search"] {
+    padding: 16px 24px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.1rem;
+    border: 2px solidrgb(230, 171, 131);
+    border-radius: 30px;
+    outline: none;
+    margin: 10px 0 0 0;
+    color: #333;
+}
+
+form input[type="search"]::placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+/* Image Layout */
+main > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+main > div img {
+    max-width: 50%; /* Make images smaller */
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+main > div img:hover {
+    transform: scale(1.05);
+}
+
+/* Info Boxes */
+.info-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.info-box {
+    background-color: #fff2e6;
+    border: 2px solid #ffcc99;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.info-box:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+    color: #777;
+}

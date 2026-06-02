@@ -1,0 +1,136 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#homePage{
+    margin:0px;
+}
+#homePage header{
+background-color: rgb(181, 180, 180);
+top:0;
+position: sticky;
+overflow: hidden;
+}
+#Rname{
+    float:left;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  margin-left:15px;
+}
+
+#Rname h1{
+    margin-bottom: 0px;
+}
+#Rname h2{
+    margin: 0px;
+}
+
+#list{
+    text-align: right;
+  
+}
+#list ul{
+    list-style-type: none;
+    color: black;
+padding-top:60px;
+font-size: 1.2em;
+margin: 0px 20px 0px 0px;
+}
+#list ul li{
+    margin:2px 0px 2px 0px ;
+}
+#list ul li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-weight: 525;
+}
+#list ul li a:hover{
+    color: black;
+    font-weight: 600;
+}
+#RandB{
+    padding-top:40px;
+    padding-left:60px;
+    font-size: 3em;
+   height: 700px;
+   background-image: url(/images/ResturantBGM.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+#photo{
+    margin:5px 0px 2px 0px;
+}
+#food1{
+width:50%;
+height:912px;
+object-fit: cover;
+}
+#food2{
+    width:49%;
+    height: 912px;
+   object-fit: cover;
+}
+#info{
+    background-color: rgb(230, 230, 250);
+    width:100%;
+    height: 200px;
+    margin-top: 0px;
+    overflow: auto;
+    margin-bottom: 4px;
+}
+#info h1{
+    float:left;
+    margin-top: 0px;
+}
+#pr{
+    margin-top: 0px;
+    font-size: 2em;
+    padding-top:15px;
+padding-left: 20px;
+margin-right: 20px;
+}
+#lor{
+margin-top: 0px;
+padding-top: 50px;
+font-size: 1.5em;
+}
+footer{
+    background-color: rgb(235, 235, 235);
+margin:0px;
+height:auto;
+}
+#end{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+     margin-left: 15px;
+     padding-top:20px;
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+#end h4{
+    margin:0px
+}
+#Rname1{
+    float:left;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  margin-left:15px;
+}
+#Rname1 h1{
+    margin: 0px;
+}
+#Rname1 h2{
+    margin: 0px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 0px;
+}

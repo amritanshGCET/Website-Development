@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    text-align: center;
+    font-size: 6em;
+    background-color: black;
+    color: azure;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+   list-style-type: none;
+   margin:0px;
+   padding:0px;
+   border: 2px solid; 
+   overflow: hidden;
+  
+}
+.navbar{
+  
+    background-color: tomato;
+    display:block;
+    position:sticky;
+    top:0;         
+  z-index: 1000; 
+}
+.navbar li{
+    display: inline;
+float : left;
+font-size: 2em; 
+
+border: 3px solid;
+padding:0px 9px 0px 9px ;
+}
+.navbar li:hover{
+    background-color: brown;
+}
+
+  h1  {
+margin-bottom: 0px;
+    }
+
+ul{
+    list-style: square inside ;
+}

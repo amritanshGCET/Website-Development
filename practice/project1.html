@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/images/Camp Nou.jpg">
+    <title>Ticket booking</title>
+    <link rel="stylesheet" href="/practice/style.css">
+</head>
+<body>
+    <h1>Travel booking form</h1>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" placeholder="Raj kapoor" >
+         <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="5" maxlength="15" placeholder="**********" >
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="rajkapoor45@gmail.com">
+<br>
+         <label for="phone">Phone Number:</label>
+         <input type="tel" id="phone" placeholder="9170862499" minlength="10" maxlength="10" pattern="[0-9]{10}">
+        <br>
+        <label for="bDate">Date Of Birth</label>
+        <input type="date" id="bDate" placeholder="DD-MM-YYYY">
+        <br>
+        <label for="quan">Number of people:</label>
+        <input type="number" id="quan" max="15" min="0" value="1">
+        <br>
+         <label for="Select Plan">Select plan:</label>
+
+         <label for="silver" >Silver</label>
+         <input type="radio" id="silver" value="silver" name="Select plan">
+
+         <label for="gold">Gold</label>
+         <input type="radio" id="gold" value="gold" name="Select plan">
+
+         <label for="gold+">Gold+</label>
+         <input type="radio" id="gold+" value="gold+" name="Select plan">
+         <br>
+
+         <label for="option">payment Option:</label>
+         <select id="payment">
+          <option value="select">--select--</option>
+         <option value="credit">credit card</option>
+         <option value="debit">debit card</option>
+         <option value="NetBanking">NetBanking</option>
+        </select><br>
+
+        <label for="check">I agree to all the terms and conditons</label>
+        <input type="checkbox" id="check">
+        <br>
+
+        <label for="file">Upload the Image of aadhar card:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+        <br>
+
+        <label for="feedback">Any useful feedback:</label>
+        <textarea type="comment" id="feedback" rows="3" columns="25"></textarea>
+        <br>
+       <label for="reset"></label>
+        <input type="reset">
+<br>
+        <label  for="submit"></label>
+        <input type="submit">
+   </form>
+</body>
+</html>

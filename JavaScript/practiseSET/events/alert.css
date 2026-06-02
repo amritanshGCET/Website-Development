@@ -1,0 +1,22 @@
+.container
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:10px;
+}
+.btn1{
+    background-color: rgb(255, 100, 100);
+    height: 50px;
+    border-radius: 7px;
+}
+.btn2{
+    background-color: rgb(104, 255, 104);
+    height: 50px;
+    border-radius: 7px;
+}
+.btn3{
+    background-color: rgb(255, 255, 118);
+    height: 50px;
+    border-radius: 7px;
+}

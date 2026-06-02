@@ -1,0 +1,109 @@
+
+body{
+   padding: 0;
+   margin: 0;
+}
+nav{
+    display: flex;
+    padding: 20px 0px 0px 50px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.elements ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.2em;
+    color: rgb(58, 58, 58);
+    margin-left: 40px;
+}
+.elements ul li{
+margin:10px;
+}
+.elements ul li:nth-child(5){
+    border:2px solid steelblue;
+    font-weight: 800;
+    padding:8px;
+   border-radius: 4px;
+   margin-left: 350px;
+   margin-right: 30px;
+}
+.elements ul li:hover{
+cursor:pointer;
+}
+    .info{
+        text-align: center;
+        
+    }
+    .button{
+        margin-top: 50px;
+    }
+    .button a{
+     text-decoration: none;
+     background-color: rgb(0, 114, 114);
+     color: white;
+     font-weight: 600;
+     padding: 15px;
+     border-radius: 4px;
+    }
+    .button a:hover{
+        background-color:rgb(0, 67, 67) ;
+    }
+    
+    .lang {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 30% 0 30%;
+    }
+    .item {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+   padding: 25px;
+}
+.lang div p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.download{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 178, 0);
+border-radius: 6px;
+font-weight: 600;
+padding: 5px;
+}
+.download {
+   margin-top: 40px;
+}
+.item:first-child p{
+    margin-bottom: 77px;
+}
+@media screen and (max-width:700px) {
+    .elements ul li:nth-child(1), 
+    .elements ul li:nth-child(2), 
+    .elements ul li:nth-child(3), 
+    .elements ul li:nth-child(4) {
+        display: none;
+    }
+    .elements ul{
+        margin-left: 0px;
+    }
+    .elements ul li:nth-child(5){
+         margin-left: 0px;
+    }
+    .lang{
+     grid-template-columns: 1fr;
+     padding:0px;
+     
+    }
+
+}
+    
+

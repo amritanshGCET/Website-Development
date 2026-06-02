@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+   
+}
+
+body::selection{
+background-color: green;
+color: aliceblue;
+}
+header{
+background-color: rgb(181, 180, 180);
+top:0;
+position: sticky;
+overflow: hidden;
+}
+#Rname{
+    float:left;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  margin-left:15px;
+}
+
+#Rname h1{
+    margin-bottom: 0px;
+}
+#Rname h2{
+    margin: 0px;
+}
+
+#list{
+    text-align: right;
+  
+}
+#list ul{
+    list-style-type: none;
+    color: black;
+padding-top:60px;
+font-size: 1.2em;
+margin: 0px 20px 0px 0px;
+}
+#list ul li{
+    margin:2px 0px 2px 0px ;
+}
+#list ul li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-weight: 525;
+}
+#list ul li a:hover{
+    color: black;
+    font-weight: 600;
+}
+main{
+    background-color: rgb(179, 179, 255);
+    margin: 0px;
+    overflow: auto;
+}
+#about{
+    margin: 0px;
+}
+.heading{
+     font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+ margin: 0px;
+ float: left;
+padding:85px 0px 0px 550px;
+}
+.content{
+   width: 30%;
+   padding: 80px 0px 80px 800px;
+}
+#contact{
+    transition-property: all;
+    transition-duration: 10s;
+    transition-timing-function:  ease-in;
+    transition-delay: 0s;
+}
+
+.heading2
+{
+    font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+ margin: 0px;
+ float:left;
+ margin-right: 40px;
+
+}
+#social{
+    list-style: none;
+    font-size: 1.25em;
+    float:left;
+    padding: 0px;
+margin-right: 40px;
+}
+#social li {
+    margin-bottom: 4px;
+}
+#social li a:link
+{
+ color: #000000;
+}
+#social li a:visited{
+    color: #000000;
+}
+#social li a:hover{
+  color: #fffcfc;
+}
+#social li a:visited:hover{
+  color: rgb(255, 255, 255);
+}
+#social li a{
+        margin-bottom: 4px;
+    }
+.Sheading{
+    margin-bottom: 0px;
+}
+#AandC p{
+    margin: 0px;
+}
+footer{
+    background-color: rgb(235, 235, 235);
+margin:0px;
+height:auto;
+}
+#end{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+     margin-left: 15px;
+     padding-top:20px;
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+#end h4{
+    margin:0px
+}
+#Rname1{
+    float:left;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  margin-left:15px;
+}
+#Rname1 h1{
+    margin: 0px;
+}
+#Rname1 h2{
+    margin: 0px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 0px;
+}

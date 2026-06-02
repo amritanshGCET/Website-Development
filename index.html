@@ -1,0 +1,165 @@
+<!DOCTYPE html> <!-- 1=DOCTYPE 2=HTML 3=head 4=BODY -->
+<html>  
+    <head> 
+<!--FAVICONS-->
+      <link rel="icon" type="image/jpeg" href="images/favicon.jpeg">
+        <title>My first website</title> </head>
+    <body>
+        <h1>testing page</h1>
+        <h3>my first website</h3>
+<!--HYPERLINKS-->
+      
+         <a href="https://www.google.co.in/" target="_blank" title="goes to google">click me</a>
+         <br> 
+
+         <a href="mailto:testing@gmail.com" target="_blank">
+            Click me to email
+         </a>
+         <br>
+         
+         <a href="lyrics.html" target="_blank">
+lyrics 
+<hr>
+         </a>
+<!--IMAGE-->
+         <img src="images/Camp Nou.jpg" height="200" alt="cam nou picture">
+
+        </img>
+        <hr>
+<p>Audio<p>
+<!--AUDIO-->
+<audio controls loop>
+    <source src="/AUDIO/got_castamere_song.mp3">
+</audio>
+<hr>
+
+<!--VIDEO-->
+<p>VIDEO</p>
+<video src="/videos/rains of castamere.mp4"width="350" controls muted loop>
+</video>
+<!--TEXT FORMATING-->
+        <hr>
+    <p>Lorem, ipsum <b>dolor</b> sit amet <sub>consectetur</sub> <sup>adipisicing</sup> elit. <mark style="background-color: aqua;">Odit</mark> accusamus<del> possimus </del>iste maxime, nesciunt iusto minima consequatur dicta voluptates aspernatur enim, doloribus facere modi animi vel repudiandae commodi culpa quis.</p> 
+    <hr>
+<!--GROUP TOGETHER-->
+    <!--Span is an in line container-->
+    <p><span style="background-color:rgb(0, 255, 251);">Span is an in line container</span></p>
+    <!--Div is an block container-->
+    <p><div style="background-color:rgba(255, 94, 0, 0.986);">Div is an Block container</div></p>
+    <hr>
+ <!--LISTS-->
+    <!--unordered list-->
+    <h3>Unorderd lists</h3>
+    <ul>
+        <li>vegetables</li>
+        <li>milk</li>
+        <li>coffe</li>
+    </ul>
+    <!--ordered list-->
+    <h3>ordered list</h3>
+    <ol>
+        <li>wake up at 8</li>
+        <li>go to class</li>
+        <li>do your homework</li>
+    </ol>
+    <!--Descriptive list-->
+    <h3>fantasy creatures</h3>
+         <dl style="background-color:rgb(165, 110, 42); border:2px solid;">
+            <ul>
+            <li><dt>Dragon</dt></li>
+            <dd>A dragon is a magical legendary creature that appears in the folklore of multiple cultures worldwide</dd>
+            <li><dt>Direwolf</dt></li>
+            <dd>The dire wolf is an extinct species of canine which was native to the Americas during the Late Pleistocene and Early Holocene epochs</dd>
+            <li><dt>drawfs</dt></li>
+            <dd>A dwarf is a type of supernatural being in Germanic folklore</dd>
+            </ul>
+         </dl>
+         <hr>
+<!--TABLES-->
+    <h3>study hours</h3>
+    <table border="2" style="background-color:black;">
+        <tr align="center" style="background-color: aqua;">
+            <td width="100">SUNDAY</td>
+            <td width="100">MONDAY</td>
+            <td width="100">TUESDAY</td>
+            <td width="100">WEDNESDAY</td>
+            <td width="100">THRUSDAY</td>
+            <td width="100">FRIDAY</td>
+            <td width="100">SATURDAY</td>
+        </tr>
+        <tr align="center" style="background-color: azure;">
+            <td>No study</td>
+            <td>2-10</td>
+            <td>2-10</td>
+            <td>2-10</td>
+            <td>2-10</td>
+            <td>2-10</td>
+            <td>4-10</td>
+        </tr>
+    </table>
+<hr>
+<!--BUTTON-->
+       <a href="lyrics.html" target="_blank" title="directs to lyrics html page"> 
+        <button style="font-size:50px; background-color: rgb(0, 128, 90); color: black; border-radius: 20px;">CLICK ME</button> 
+    </a>
+    <hr>
+<!--FORM-->
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" placeholder="Raj kapoor" >
+         <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="5" maxlength="15" placeholder="**********" >
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="rajkapoor45@gmail.com">
+<br>
+         <label for="phone">Phone Number:</label>
+         <input type="tel" id="phone" placeholder="9170862499" minlength="10" maxlength="10" pattern="[0-9]{10}">
+        <br>
+        <label for="bDate">Date Of Birth</label>
+        <input type="date" id="bDate" placeholder="DD-MM-YYYY">
+        <br>
+        <label for="quan">Number of people:</label>
+        <input type="number" id="quan" max="15" min="0" value="1">
+        <br>
+         <label for="Select Plan">Select plan:</label>
+
+         <label for="silver" >Silver</label>
+         <input type="radio" id="silver" value="silver" name="Select plan">
+
+         <label for="gold">Gold</label>
+         <input type="radio" id="gold" value="gold" name="Select plan">
+
+         <label for="gold+">Gold+</label>
+         <input type="radio" id="gold+" value="gold+" name="Select plan">
+         <br>
+
+         <label for="option">payment Option:</label>
+         <select id="option" > 
+          <option value="select">--select--</option> 
+         <option value="credit">credit card</option>
+         <option value="debit">debit card</option>
+         <option value="NetBanking">NetBanking</option>
+        </select><br>
+
+        <label for="check">I agree to all the terms and conditons</label>
+        <input type="checkbox" id="check">
+        <br>
+
+        <label for="file">Upload the Image of aadhar card:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+        <br>
+
+        <label for="feedback">Any useful feedback:</label>
+        <textarea type="comment" id="feedback" rows="3" columns="25"></textarea>
+        <br>
+       <label for="reset"></label>
+        <input type="reset">
+<br>
+        <label  for="submit"></label>
+        <input type="submit">
+   </form>
+    
+        </body>
+   </html>

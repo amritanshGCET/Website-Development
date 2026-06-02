@@ -1,0 +1,49 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-color: grey;
+}
+.card{
+background-color: white;
+height: 455px;
+width: 300px;
+border-radius: 7px;
+}
+.image {
+  padding: 12px;
+  
+}
+.image img{
+  border: 2px solid;
+ border-radius: 7px;
+}
+.tags{
+  margin-left:12px;
+  background-color: grey;
+  border:2px solid black ;
+  border-radius: 5px;
+}
+div h1{
+margin: 10px;
+}
+div p{
+  color:grey;
+  margin-left: 10px; 
+  margin-bottom:3px;
+}
+div button{
+  margin-left: 110px;
+  border:2px solid black;
+  border-radius: 8px;
+  background-color: rgb(101, 101, 231); 
+padding: 0px 3px 0px 3px ;
+}
+
+
+
+
+
+
+

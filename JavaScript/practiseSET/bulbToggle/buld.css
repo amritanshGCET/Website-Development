@@ -1,0 +1,20 @@
+.Bulb{
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 0px;
+}
+.Bulb_Container{
+    padding: 10px;
+    position: relative;
+}
+.btn{
+    background-color: tomato;
+    position: absolute;
+    top:210px;
+    color: white;
+    font-size: 1.2em;
+}
+.On_Bulb{
+    display:none;
+}
