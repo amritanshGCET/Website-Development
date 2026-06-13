@@ -14,6 +14,7 @@ let TimeStamp = Date.now(); //use .now() with Date only
 console.log(TimeStamp);
 let MyTimeStamp = CreateMyDate.getTime(); 
 console.log(MyTimeStamp);
+
 //time in seconds 
 console.log(Math.floor(Date.now()/1000));
 

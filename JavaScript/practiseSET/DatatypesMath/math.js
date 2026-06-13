@@ -30,7 +30,7 @@ let INum = 0, RiNum = 0;
 //     "between 9 to 10":ten
 // });
 
-// formula to generate numbers in a specific range 
+// formula to generate numbers in a specific range from min to max 
 const min = 10;
 const max = 20;
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
